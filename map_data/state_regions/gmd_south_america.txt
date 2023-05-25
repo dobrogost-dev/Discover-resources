@@ -331,6 +331,14 @@ STATE_CUBA = {
         type = "bg_oil_extraction"
         undiscovered_amount = 5
     }
+			resource = {
+        type = "bg_iron_mining"
+        undiscovered_amount = 10
+    }
+			resource = {
+        type = "bg_coal_mining"
+        undiscovered_amount = 10
+    }
     naval_exit_id = 3061
 }
 STATE_ANTIOQUIA = {
