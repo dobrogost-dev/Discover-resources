@@ -1,0 +1,5 @@
+﻿l_english:
+ building_coal_mine_discovered_resource:0 "Coal"
+ building_iron_mine_discovered_resource:0 "Iron"
+ building_sulfur_mine_discovered_resource:0 "Sulfur"
+ building_lead_mine_discovered_resource:0 "Lead"

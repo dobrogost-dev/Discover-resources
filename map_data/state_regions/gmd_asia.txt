@@ -1,0 +1,777 @@
+STATE_KACHIN = {
+    id = 524
+    subsistence_building = "building_subsistence_rice_paddies"
+    provinces = { "x077F7F" "x096B34" "x0BDB4D" "x0F9164" "x234C64" "x3002EA" "x319B9E" "x363A85" "x3E75FA" "x3E79B6" "x401054" "x47B561" "x47C5A9" "x4D31CA" "x634D79" "x675150" "x695CD8" "x6CF865" "x7D320E" "x81E012" "x8E1E5B" "x90EF60" "x9339DC" "x964B33" "x9AA00A" "x9D320D" "x9DE9F6" "xB46F84" "xB51155" "xB8B1D2" "xC1940E" "xCD31D0" "xCFEFDF" "xD18BAA" "xD7A648" "xDEFDA8" "xE0645B" "xE15EF6" "xECACD2" "xF212BD" "xF84302" "xFB1A2B" "xFE971F" }
+    traits = { "state_trait_burmese_teak" }
+    city = "x81E012"
+    farm = "x319B9E"
+    mine = "xCD31D0"
+    wood = "x077F7F"
+    arable_land = 30
+    arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_opium_plantations" "bg_tea_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
+    capped_resources = {
+        bg_logging = 32
+    }
+}
+
+STATE_SHAN_STATES = {
+    id = 525
+    subsistence_building = "building_subsistence_rice_paddies"
+    provinces = { "x1D8BBD" "x2414D9" "x26A4FC" "x27DBA6" "x2C8D05" "x334200" "x34E09D" "x36C9CC" "x375F42" "x39659E" "x422870" "x4D639B" "x5116F0" "x5745FF" "x66C0CA" "x70292A" "x747429" "x766EA5" "x772D64" "x7D71CA" "x887519" "x90EFDF" "x97D55A" "x9F7026" "xA125B4" "xAFC613" "xB09BEA" "xC20B31" "xD04A7B" "xD9D4B0" "xDF2487" "xE7608F" "xEAF30B" "xF1F906" "xF65E92" "xF6A5C7" }
+    traits = { "state_trait_burmese_teak" }
+    city = "x66C0CA"
+    farm = "xA125B4"
+    mine = "x26A4FC"
+    wood = "xD04A7B"
+    arable_land = 20
+    arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_opium_plantations" "bg_tea_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
+    capped_resources = {
+        bg_coal_mining = 20
+        bg_lead_mining = 27
+        bg_logging = 27
+    }
+    resource = {
+        type = "bg_rubber"
+        undiscovered_amount = 2
+    }
+}
+
+STATE_BURMA = {
+    id = 2000
+    subsistence_building = "building_subsistence_rice_paddies"
+    provinces = { "x118ECF" "x212FE8" "x2497E7" "x26A2E9" "x2FF9BD" "x397139" "x3DB5A9" "x546B18" "x60CBBF" "x620442" "x6E8FA2" "x75BE27" "x9070DF" "xA17AB8" "xA6F4C3" "xB7E202" "xD2F36A" "xD5035C" "xDA0253" "xE2C923" "xF5193B" }
+    traits = { "state_trait_burmese_teak" }
+    city = "x620442"
+    farm = "xB7E202"
+    mine = "x118ECF"
+    wood = "x212FE8"
+    arable_land = 35
+    arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_opium_plantations" "bg_tea_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
+    capped_resources = {
+        bg_iron_mining = 36
+        bg_logging = 30
+    }
+    resource = {
+        type = "bg_rubber"
+        undiscovered_amount = 20
+    }
+}
+
+STATE_PEGU = {
+    id = 526
+    subsistence_building = "building_subsistence_rice_paddies"
+    provinces = { "x020CFE" "x02F3AF" "x1070E0" "x11F060" "x1FD921" "x2906F0" "x2BD769" "x2D91EF" "x2F9F98" "x595BB6" "x6305C9" "x67520F" "x81D108" "x9A018D" "xA85E24" "xB030A0" "xB0B0A0" "xB13330" "xB316F6" "xC0E31F" "xC2EA2C" "xC9BBA0" "xCF7060" "xD5DB0B" "xE85BF0" "xF0F78C" "xF691D2" }
+    impassable = { "xB030A0" "x67520F" }
+    traits = { "state_trait_irrwaddy_delta" "state_trait_burmese_teak" }
+    city = "xB0B0A0"
+    port = "xE85BF0"
+    farm = "xF0F78C"
+    mine = "xB316F6"
+    wood = "xB0B0A0"
+    arable_land = 40
+    arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_opium_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
+    capped_resources = {
+        bg_logging = 25
+        bg_fishing = 10
+    }
+    resource = {
+        type = "bg_rubber"
+        undiscovered_amount = 14
+    }
+    naval_exit_id = 3050
+}
+
+STATE_CAMBODIA = {
+    id = 515
+    subsistence_building = "building_subsistence_rice_paddies"
+    provinces = { "x1A549C" "x20D113" "x2E84A3" "x319927" "x36D7BA" "x4BA220" "x529791" "x5BA8A8" "x65369D" "x7070A0" "x70F021" "x712EFF" "x73E2F0" "x7691D4" "x76C9B7" "x7A5B5E" "x810F9E" "x81EF79" "x989BA9" "x9EEF57" "x9F8A85" "xA0B065" "xA3B8D9" "xA9542D" "xB5755C" "xC2C8CF" "xD125AB" "xD45279" "xDF21D5" "xE2C782" "xEFEF20" "xF0FC47" "xFA2C44" "xFB565E" }
+    traits = { "state_trait_indochinese_forest" "state_trait_mekong_river" }
+    city = "xD45279"
+    port = "x7A5B5E"
+    farm = "xE2C782"
+    mine = "xF0FC47"
+    wood = "xC2C8CF"
+    arable_land = 35
+    arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_silk_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
+    capped_resources = {
+        bg_iron_mining = 30
+        bg_logging = 20
+        bg_fishing = 5
+        bg_monuments = 1
+    }
+    resource = {
+        type = "bg_rubber"
+        undiscovered_amount = 12
+    }
+    naval_exit_id = 3053
+}
+
+STATE_BANGKOK = {
+    id = 516
+    subsistence_building = "building_subsistence_rice_paddies"
+    provinces = { "x060F5C" "x09DC04" "x10AFE0" "x154B0D" "x194621" "x20DFD0" "x2C4B2F" "x30EF20" "x541AFB" "x552E9A" "x5B0F13" "x98384C" "x99A1C0" "xA0084E" "xAA42AD" "xAD234F" "xADC4DA" "xCE49D1" "xDF3CAD" "xEEFF94" "xF36077" }
+    traits = { "state_trait_chao_phraya_delta" }
+    city = "x10AFE0"
+    port = "x10AFE0"
+    farm = "x5B0F13"
+    mine = "xCE49D1"
+    wood = "x99A1C0"
+    arable_land = 50
+    arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_silk_plantations" "bg_opium_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
+    capped_resources = {
+        bg_logging = 22
+        bg_fishing = 8
+    }
+    resource = {
+        type = "bg_rubber"
+        undiscovered_amount = 16
+    }
+    naval_exit_id = 3053
+}
+
+STATE_TONKIN = {
+    id = 517
+    subsistence_building = "building_subsistence_rice_paddies"
+    provinces = { "x32BFFB" "x36F847" "x4BB178" "x5083AB" "x5AB75C" "x60458E" "x61145A" "x64BE62" "x65FE48" "x70B09F" "x738D72" "x799EA4" "x7B8217" "x88BB78" "x98FD84" "xC37AF1" "xCD0D1D" "xCF906A" "xD27C1B" "xD49EE0" "xF031A0" "xF0B0A0" "xF0E531" }
+    traits = { "state_trait_indochinese_forest" }
+    city = "xF0E531"
+    port = "x4BB178"
+    farm = "xF0B0A0"
+    mine = "x70B09F"
+    wood = "x799EA4"
+    arable_land = 60
+    arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_silk_plantations" "bg_dye_plantations" "bg_opium_plantations" "bg_tea_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
+    capped_resources = {
+        bg_coal_mining = 32
+        bg_logging = 30
+        bg_fishing = 7
+    }
+    resource = {
+        type = "bg_rubber"
+        undiscovered_amount = 16
+    }
+    naval_exit_id = 3054
+}
+
+STATE_ANNAM = {
+    id = 518
+    subsistence_building = "building_subsistence_rice_paddies"
+    provinces = { "x0BE805" "x2A870A" "x307020" "x3070A0" "x5109BC" "x7A5ACC" "x9E5CF8" "xA01EF1" "xB070A0" "xC08B17" "xC46194" "xE63DDE" "xEDBFB1" "xEEB5DD" "xEF3060" "xF22C8B" "xFAB663" }
+    traits = { "state_trait_indochinese_forest" }
+    city = "xA01EF1"
+    port = "x2A870A"
+    farm = "xB070A0"
+    mine = "xEDBFB1"
+    wood = "x307020"
+    arable_land = 60
+    arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_silk_plantations" "bg_dye_plantations" "bg_tea_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
+    capped_resources = {
+        bg_coal_mining = 24
+        bg_iron_mining = 27
+        bg_logging = 26
+        bg_fishing = 15
+    }
+    resource = {
+        type = "bg_rubber"
+        undiscovered_amount = 6
+    }
+    naval_exit_id = 3054
+}
+STATE_MEKONG = {
+    id = 519
+    subsistence_building = "building_subsistence_rice_paddies"
+    provinces = { "x00C0B0" "x0C662E" "x1C5BE6" "x1D9718" "x217F68" "x223DD3" "x246E58" "x248BCA" "x3C8C22" "x4080B0" "x474B0B" "x47ADCE" "x4923A3" "x58B174" "x5E16EB" "x5F0DAB" "x70B060" "x72E436" "x7D46C6" "x841E31" "xA4DBB7" "xB366DB" "xC080B0" "xD8BFF1" "xDF070D" "xE5A4DA" "xFD66E6" }
+    traits = { "state_trait_mekong_delta" "state_trait_indochinese_forest" }
+    city = "xE5A4DA"
+    port = "xE5A4DA"
+    farm = "x3C8C22"
+    mine = "x1C5BE6"
+    wood = "x246E58"
+    arable_land = 45
+    arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_silk_plantations" "bg_dye_plantations" "bg_tea_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
+    capped_resources = {
+        bg_logging = 30
+        bg_fishing = 16
+    }
+    resource = {
+        type = "bg_rubber"
+        undiscovered_amount = 8
+    }
+    naval_exit_id = 3053
+}
+STATE_SICHUAN = {
+    id = 480
+    subsistence_building = "building_subsistence_rice_paddies"
+    provinces = { "x0502BE" "x05195F" "x092323" "x09C8CB" "x0BAD6F" "x0D68E8" "x102905" "x11062E" "x11B3F7" "x12B742" "x143D50" "x154288" "x157E2E" "x162AC1" "x1C5B2A" "x1C8A07" "x2332C5" "x24A95A" "x25C936" "x28C7CA" "x2B4D74" "x2CC651" "x2F07EE" "x39A321" "x3E073E" "x411CFE" "x41F76A" "x42DB73" "x49C4AB" "x4BBCD9" "x4BEFB9" "x4C02B1" "x5056A4" "x509862" "x5304E5" "x59CA77" "x5B7400" "x5C8BAE" "x5D7F15" "x5F792D" "x60B060" "x60E0D5" "x654894" "x66015E" "x6E1C89" "x6FFCF0" "x710D15" "x735688" "x745C03" "x7511D0" "x787852" "x793905" "x7D9239" "x7F3356" "x7F900E" "x82755F" "x83A248" "x85F99B" "x87C535" "x891A77" "x8A6C0F" "x8B74E5" "x8C298E" "x8D0615" "x8F60D5" "x8FC46D" "x93091D" "x98345A" "x9F1EF5" "x9F88D3" "xA1C52B" "xA5D674" "xAD69D9" "xAE99AF" "xAF900C" "xB391A8" "xBAD952" "xBB4B6C" "xBC9630" "xBE3227" "xBE3ADF" "xBF0445" "xBFC5D3" "xC38352" "xC3C67F" "xC5FA12" "xC943C3" "xC97B8A" "xCAEF49" "xCCB937" "xD3C3F5" "xD57DC5" "xD7D182" "xD91B4A" "xDDCBB6" "xE0B060" "xE9438D" "xEA3DB0" "xF0F6C5" "xF47E4A" "xF64FC1" "xF6FED1" "xF72ADD" "xFF933F" }
+    traits = { "state_trait_yangtze_river" "state_trait_the_red_basin" }
+    city = "x60E0D5"
+    farm = "x28C7CA"
+    mine = "xF0F6C5"
+    wood = "xC943C3"
+    arable_land = 330
+    arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_opium_plantations" "bg_tea_plantations" "bg_tobacco_plantations" }
+    capped_resources = {
+        bg_coal_mining = 60
+        bg_sulfur_mining = 40
+        bg_logging = 31
+    }
+		resource = {
+	     type = "bg_sulfur_mining"
+	     undiscovered_amount = 20
+	 }
+}
+STATE_YUNNAN = {
+    id = 481
+    subsistence_building = "building_subsistence_rice_paddies"
+    provinces = { "x006A4F" "x013B73" "x0441DB" "x0DD716" "x1030E0" "x145038" "x15778F" "x171D65" "x182F15" "x192036" "x1A9B06" "x1CB687" "x1F78D6" "x20105C" "x201A85" "x208960" "x21761F" "x258B0E" "x2C11A0" "x30B020" "x324DBC" "x361595" "x380CC0" "x3F1A1A" "x4371C1" "x4BFD9D" "x560DE1" "x58693A" "x596A3B" "x5B4D62" "x620CDD" "x6A589B" "x6B38F7" "x71C144" "x78DC66" "x7B64C3" "x7D9D85" "x7F74E1" "x813682" "x81C1EF" "x82A017" "x82DE53" "x869E15" "x88F06D" "x8A64C4" "x8DE825" "x8F7B8D" "x90B060" "x93373E" "x96953B" "x9CC299" "x9F048D" "x9F3CF8" "xA5EE2A" "xA76417" "xAAC8DF" "xB2ED64" "xB31532" "xB44B2B" "xB6C5A6" "xB75AA7" "xB789C6" "xB8B1E3" "xBE3E11" "xC0166A" "xC5D4FD" "xCEA509" "xCEE3D4" "xD050BA" "xD3FD34" "xD77B27" "xD7C8CD" "xDA3D4C" "xE4031D" "xE436A1" "xE67199" "xE7A2A1" "xEB44C6" "xF901AE" "xF979F9" "xFA541A" "xFDF8D0" "xFE5E24" }
+    traits = { "state_trait_yangtze_river" }
+    city = "x78DC66"
+    farm = "xE67199"
+    mine = "x6A589B"
+    wood = "x8F7B8D"
+    arable_land = 150
+    arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_opium_plantations" "bg_tea_plantations" "bg_tobacco_plantations" }
+    capped_resources = {
+        bg_coal_mining = 40
+        bg_iron_mining = 60
+        bg_logging = 25
+    }
+			resource = {
+	     type = "bg_coal_mining"
+	     undiscovered_amount = 20
+	 }
+		resource = {
+	     type = "bg_iron_mining"
+	     undiscovered_amount = 20
+	 }
+}
+
+STATE_NORTH_BORNEO = {
+    id = 541
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x002310" "x0141B0" "x0F01DC" "x1C6623" "x242519" "x26DE63" "x278E1E" "x2EE734" "x3CCBAA" "x461E0E" "x61FE7A" "x6D3CF9" "x6FEE71" "x75D5D2" "x762FBA" "x763646" "x800170" "x8041B0" "x808070" "x821B67" "x905338" "x91B40F" "x965EF0" "x9E0616" "xB689E6" "xC0B7FD" "xC531AE" "xC65120" "xCED863" "xD0AC5F" "xD78953" "xDD9CFE" "xE66512" "xE9FB27" "xEF6FBE" "xF2BC79" "xF61121" "xFB18B8" "xFC8025" }
+    impassable = { "xE9FB27" "x8041B0" "x905338" }
+    traits = { "state_trait_sarawak_river" "state_trait_borneo_rainforest" }
+    city = "x800170"
+    port = "xC531AE"
+    farm = "x91B40F"
+    mine = "xC0B7FD"
+    wood = "xC65120"
+    arable_land = 20
+    arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_dye_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_banana_plantations" }
+    capped_resources = {
+        bg_iron_mining = 24
+        bg_sulfur_mining = 36
+        bg_logging = 27
+        bg_fishing = 8
+    }
+    resource = {
+        type = "bg_gold_fields"
+        depleted_type = "bg_gold_mining"
+        undiscovered_amount = 8
+    }
+    resource = {
+        type = "bg_rubber"
+        undiscovered_amount = 16
+    }
+    naval_exit_id = 3055
+}
+
+STATE_WEST_BORNEO = {
+    id = 542
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x029E85" "x04BB3B" "x1C7417" "x2A3D46" "x42973E" "x4408AB" "x445D59" "x477680" "x4DD36E" "x56FE77" "x60FDC2" "x638173" "x6D4CDF" "x706E00" "x71D428" "x76E306" "x7FFBF0" "x8A69A7" "x939612" "x9910E9" "xA5A916" "xA67A6E" "xA6D36E" "xA91194" "xAD54BC" "xB7B05B" "xBC374E" "xC29C28" "xCF4105" "xD735DB" "xE02CB6" "xE3C4F2" "xF37396" "xF8375D" "xF9BDCB" "xFCFD83" "xFF8539" "xFFE074" }
+    impassable = { "xA5A916" "xBC374E" "x04BB3B" "x9910E9" "xCF4105" "x477680" "x56FE77" }
+    prime_land = { "xE02CB6" "x60FDC2" "x42973E" }
+    traits = { "state_trait_kapuas_river" "state_trait_borneo_rainforest" }
+    city = "xFFE074"
+    port = "x4DD36E"
+    farm = "x445D59"
+    mine = "x1C7417"
+    wood = "x6D4CDF"
+    arable_land = 22
+    arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_dye_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_banana_plantations" }
+    capped_resources = {
+        bg_lead_mining = 30
+        bg_logging = 32
+        bg_fishing = 7
+    }
+    resource = {
+        type = "bg_gold_fields"
+        depleted_type = "bg_gold_mining"
+        undiscovered_amount = 6
+        discovered_amount = 4
+    }
+    resource = {
+        type = "bg_rubber"
+        undiscovered_amount = 12
+    }
+    naval_exit_id = 3052
+}
+
+STATE_EAST_BORNEO = {
+    id = 543
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x018070" "x0596C2" "x0A7250" "x0A8175" "x0E858D" "x0ED6AA" "x0FFCAE" "x10645D" "x13DD1D" "x1DF499" "x1F6009" "x2695FB" "x2D539F" "x330B36" "x3631B8" "x3660F5" "x38416A" "x3BE572" "x3E96AF" "x3EE142" "x413B50" "x496AEF" "x4D4D9B" "x4F7415" "x527DD4" "x672606" "x6728CB" "x69AF77" "x6A70EA" "x718F24" "x71A232" "x7BA8AD" "x88A1EC" "x8B8321" "x8B9E4E" "x8BD8AF" "x8D8D4A" "x8F8FDE" "x952BEE" "x9B7A4D" "x9C48FE" "x9ED038" "x9F4941" "xA57C37" "xAC440F" "xB8D3B7" "xC03A53" "xC72ED3" "xC7410C" "xCC69E2" "xD5155A" "xD6E8B0" "xDB778E" "xDF0BCF" "xDFE51D" "xE49DDE" "xE9E984" "xEA35E9" "xF6BB4E" "xF8DD56" "xFBB6C2" "xFD2E40" "xFF0B89" }
+    impassable = { "x8B9E4E" "xC72ED3" "x3E96AF" "x9ED038" "x2D539F" "x1DF499" }
+    traits = { "state_trait_borneo_rainforest" }
+    city = "xDB778E"
+    port = "x4D4D9B"
+    farm = "xCC69E2"
+    mine = "xAC440F"
+    wood = "xF6BB4E"
+    arable_land = 40
+    arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_dye_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_banana_plantations" }
+    capped_resources = {
+        bg_coal_mining = 28
+        bg_logging = 29
+        bg_fishing = 9
+    }
+    resource = {
+        type = "bg_rubber"
+        undiscovered_amount = 28
+    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 40
+    }
+    naval_exit_id = 3125
+}
+
+STATE_WEST_JAVA = {
+    id = 544
+    subsistence_building = "building_subsistence_rice_paddies"
+    provinces = { "x5CC6B6" "x6345B2" "x71D392" "x975BCA" "xA0DFEF" "xB944CF" "xCE4107" "xD70117" }
+    city = "x5CC6B6"
+    port = "xD70117"
+    farm = "x975BCA"
+    mine = "x5CC6B6"
+    wood = "xA0DFEF"
+    arable_land = 110
+    arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_dye_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
+    capped_resources = {
+        bg_coal_mining = 20
+        bg_sulfur_mining = 32
+        bg_logging = 18
+        bg_fishing = 11
+    }
+    resource = {
+        type = "bg_rubber"
+        undiscovered_amount = 12
+    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 10
+    }
+    naval_exit_id = 3052
+}
+
+STATE_EAST_JAVA = {
+    id = 545
+    subsistence_building = "building_subsistence_rice_paddies"
+    provinces = { "x1D38B7" "x2060EF" "x5C2239" "x5C2250" "xA0E070" "xA8B603" "xAD1F3C" "xC226AF" "xD91A27" "xEF70EC" }
+    impassable = { "x5C2250" "x5C2239" }
+    traits = { "state_trait_natural_harbors" }
+    city = "x1D38B7"
+    port = "x1D38B7"
+    farm = "xD91A27"
+    mine = "xEF70EC"
+    wood = "xC226AF"
+    arable_land = 60
+    arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_dye_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
+    capped_resources = {
+        bg_sulfur_mining = 40
+        bg_logging = 17
+        bg_fishing = 8
+    }
+    resource = {
+        type = "bg_rubber"
+        undiscovered_amount = 12
+    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 10
+    }
+    naval_exit_id = 3052
+}
+
+STATE_CENTRAL_JAVA = {
+    id = 912
+    subsistence_building = "building_subsistence_rice_paddies"
+    provinces = { "x01B3D5" "x143969" "x14F9F5" "x20DF70" "x62742E" "x727A46" "x9C517C" "xA06070" "xA12ED1" "xD19D2E" "xEB0621" }
+    city = "xD19D2E"
+    port = "xA06070"
+    farm = "xA06070"
+    mine = "x727A46"
+    wood = "x143969"
+    arable_land = 80
+    arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_dye_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
+    capped_resources = {
+        bg_sulfur_mining = 32
+        bg_logging = 16
+        bg_fishing = 4
+    }
+    resource = {
+        type = "bg_rubber"
+        undiscovered_amount = 8
+    }
+    naval_exit_id = 3052
+}
+STATE_CELEBES = {
+    id = 913
+    subsistence_building = "building_subsistence_rice_paddies"
+    provinces = { "x08BE67" "x0C7820" "x0CA6B2" "x10547F" "x4DA1DC" "x507A4B" "x5585BD" "x58A658" "x5D959D" "x613129" "x63E362" "x79D69A" "x7A4D9B" "x7A4DF4" "x7AA69B" "x7BD240" "x7EF242" "x8080F0" "x886F1C" "x908010" "x9A5C23" "xA22F3F" "xB14D58" "xB3682E" "xB67D4D" "xBF46E7" "xC00170" "xC04B6D" "xD12748" "xE2401F" "xE82A26" "xEDDB5F" "xF0B767" "xFEA2EE" }
+    traits = { "state_trait_malaria" }
+    city = "x63E362"
+    port = "x0C7820"
+    farm = "x63E362"
+    mine = "x5585BD"
+    wood = "xF0B767"
+    arable_land = 40
+    arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_dye_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_banana_plantations" }
+    capped_resources = {
+        bg_iron_mining = 27
+        bg_logging = 26
+        bg_fishing = 4
+    }
+    resource = {
+        type = "bg_rubber"
+        undiscovered_amount = 4
+    }
+    naval_exit_id = 3125
+}
+STATE_BAGHDAD = {
+    id = 410
+    subsistence_building = "building_subsistence_orchards"
+    provinces = { "x0748CD" "x0B769F" "x0CA064" "x13CEE0" "x1D7CB1" "x1EC145" "x1EDF69" "x205060" "x20D060" "x281DD3" "x312AA2" "x34A371" "x396DB2" "x4F90CC" "x4FD1AE" "x50D95C" "x523252" "x54DF0B" "x5F9550" "x679B60" "x79A258" "x7AD6CB" "x7F8783" "x803872" "x81730A" "x92702E" "xA05060" "xA4A407" "xAE7D6F" "xBB57AC" "xC375C0" "xDC55AB" "xE090E0" "xEE1814" }
+    traits = { "state_trait_mesopotamian_floodplain" "state_trait_tigris_river" "state_trait_euphrates_river" }
+    city = "x205060"
+    farm = "x205060"
+    mine = "x4F90CC"
+    wood = "x0CA064"
+    arable_land = 40
+    arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_silk_plantations" "bg_tobacco_plantations" }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 40
+    }
+			resource = {
+	     type = "bg_sulfur_mining"
+	     undiscovered_amount = 12
+	 }
+}
+
+STATE_MOSUL = {
+    id = 411
+    subsistence_building = "building_subsistence_orchards"
+    provinces = { "x00B0A0" "x029A2B" "x07BB1D" "x0A79A0" "x111137" "x130A78" "x1F3350" "x2090E0" "x2F0CE8" "x389F34" "x4BE9F1" "x6F55BA" "xA2BD38" "xB09D9C" "xBAF0C7" "xC11149" "xD097E1" "xE4E63B" }
+    traits = { "state_trait_tigris_river" }
+    city = "x6F55BA"
+    farm = "x07BB1D"
+    mine = "xE4E63B"
+    wood = "x4BE9F1"
+    arable_land = 30
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" }
+    capped_resources = {
+        bg_sulfur_mining = 36
+    }
+	resource = {
+	     type = "bg_sulfur_mining"
+	     undiscovered_amount = 72
+	 }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 40
+    }
+}
+STATE_BASRA = {
+    id = 413
+    subsistence_building = "building_subsistence_orchards"
+    provinces = { "x00F060" "x1CC9CC" "x1D7F5E" "x2050E0" "x41F864" "x68C89A" "x6CBE21" "x7CAD29" "x807060" "x88ADC8" "x93CB74" "x9F9CCA" "xBE6A23" "xDABB9C" "xDB6370" "xF1BF17" "xFE18C1" }
+    traits = { "state_trait_mesopotamian_floodplain" "state_trait_tigris_river" "state_trait_euphrates_river" }
+    city = "x807060"
+    port = "x00F060"
+    farm = "x9F9CCA"
+    mine = "x88ADC8"
+    wood = "x7CAD29"
+    arable_land = 30
+    arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_silk_plantations" "bg_tobacco_plantations" }
+    capped_resources = {
+        bg_sulfur_mining = 32
+        bg_fishing = 6
+    }
+		resource = {
+	     type = "bg_sulfur_mining"
+	     undiscovered_amount = 61
+	 }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 60
+    }
+    naval_exit_id = 3046
+}
+STATE_ERZURUM = {
+    id = 431
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x25E046" "x27689E" "x3051BD" "x31B08C" "x409080" "x4F6E8F" "x52EB9A" "x59E513" "x5C223C" "x60677E" "x669A31" "x740ED1" "x795751" "x7BC870" "x801080" "x81F589" "x895074" "x8F5A6A" "x90BA49" "x92A943" "xA23F9A" "xC01080" "xC41BC3" "xC7DC49" "xD0901D" "xF51B98" "xFDB72C" }
+    city = "x895074"
+    farm = "x4F6E8F"
+    mine = "xC01080"
+    wood = "x7BC870"
+    arable_land = 40
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tea_plantations" "bg_tobacco_plantations" }
+    capped_resources = {
+        bg_iron_mining = 30
+        bg_lead_mining = 36
+        bg_logging = 9
+    }
+			resource = {
+	     type = "bg_lead_mining"
+	     undiscovered_amount = 70
+	 }
+}
+STATE_SHANXI = {
+    id = 491
+    subsistence_building = "building_subsistence_rice_paddies"
+    provinces = { "x04647B" "x092D9A" "x0F7841" "x102702" "x149A35" "x1A2B77" "x21C69F" "x2BAB5F" "x2E1AF5" "x2E331F" "x352689" "x406C38" "x41D423" "x554E31" "x5DD6C0" "x62F096" "x6A2320" "x703060" "x71F0A0" "x771E37" "x778646" "x7EECDC" "x7F5143" "x9090C0" "xA0F6F6" "xA3D4C9" "xA892F9" "xB53053" "xB63C5E" "xBBD804" "xBDBFAF" "xBDF913" "xC933A2" "xD09041" "xD29750" "xE75A35" "xE79EED" "xF141F6" "xF45F74" "xF87F8F" "xFA7945" }
+    traits = { "state_trait_the_loess_plateau" "state_trait_yellow_river" }
+    city = "xF87F8F"
+    farm = "x62F096"
+    mine = "x2BAB5F"
+    wood = "x2E331F"
+    arable_land = 375
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_tea_plantations" "bg_tobacco_plantations" }
+    capped_resources = {
+        bg_coal_mining = 116
+        bg_iron_mining = 96
+        bg_sulfur_mining = 48
+        bg_logging = 7
+    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 30
+    }
+	resource = {
+	     type = "bg_sulfur_mining"
+	     undiscovered_amount = 10
+	 }
+		resource = {
+	     type = "bg_coal_mining"
+	     undiscovered_amount = 100
+	 }
+		resource = {
+	     type = "bg_iron_mining"
+	     undiscovered_amount = 108
+	 }
+}
+STATE_SHANDONG = {
+    id = 511
+    subsistence_building = "building_subsistence_rice_paddies"
+    provinces = { "x115180" "x16E6F3" "x175EC6" "x1ABD79" "x1D4C25" "x2EF696" "x32CFB2" "x33490F" "x38A73B" "x39F708" "x41FB70" "x4724A9" "x483CDB" "x498F0D" "x50D040" "x55944E" "x599BC4" "x6B8F67" "x6BFF52" "x6DA6F9" "x71C085" "x798677" "x8064F0" "x83EC09" "x90D001" "x9D1474" "xA0CF65" "xAB53A3" "xAC24A6" "xAEDF9B" "xB33A36" "xBAA1D3" "xC13552" "xC14ECA" "xC55E74" "xCF50BF" "xE01180" "xE19708" "xF07810" "xF2D180" }
+    traits = { "state_trait_yellow_river" }
+    city = "x9D1474"
+    port = "xAC24A6"
+    farm = "x599BC4"
+    mine = "x6B8F67"
+    wood = "x41FB70"
+    arable_land = 350
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_silk_plantations" "bg_tea_plantations" "bg_tobacco_plantations" }
+    capped_resources = {
+        bg_sulfur_mining = 32
+        bg_logging = 6
+        bg_fishing = 15
+    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 10
+    }
+	resource = {
+	     type = "bg_sulfur_mining"
+	     undiscovered_amount = 60
+	 }
+    naval_exit_id = 3057
+}
+STATE_GUIZHOU = {
+    id = 482
+    subsistence_building = "building_subsistence_rice_paddies"
+    provinces = { "x0398DE" "x053F4B" "x096C00" "x109000" "x12DE54" "x14F092" "x2145E4" "x21B519" "x24BC36" "x269610" "x2DB649" "x3254BE" "x392877" "x3DD0C5" "x4526DC" "x4C694B" "x4D64C0" "x581D64" "x6B9BF6" "x70CB39" "x735753" "x785430" "x7BC0E9" "x88C50C" "x8B77B9" "x8EF2F9" "x909000" "x91CCD7" "x957B54" "x97C139" "x9DDD67" "x9F6A1B" "xA61477" "xAA4079" "xAEBCB8" "xC3B047" "xC7612E" "xC80075" "xCABB49" "xDAD8AE" "xE0F060" "xEBF671" "xEE0374" "xF1F862" "xF38277" "xF4DC23" "xFCC7AF" }
+    traits = { "state_trait_pearl_river" }
+    city = "x096C00"
+    farm = "x053F4B"
+    mine = "x109000"
+    wood = "xE0F060"
+    arable_land = 110
+    arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_dye_plantations" "bg_opium_plantations" "bg_tea_plantations" "bg_tobacco_plantations" }
+    capped_resources = {
+        bg_coal_mining = 32
+        bg_logging = 26
+    }
+			resource = {
+	     type = "bg_coal_mining"
+	     undiscovered_amount = 37
+	 }
+		resource = {
+	     type = "bg_iron_mining"
+	     undiscovered_amount = 21
+	 }
+}
+STATE_BEIJING = {
+    id = 487
+    subsistence_building = "building_subsistence_rice_paddies"
+    provinces = { "x038690" "x0DC804" "x0E8D56" "x0F5604" "x0F88C8" "x132B15" "x15C9C0" "x166F01" "x1DE6DF" "x1E1B11" "x20642C" "x2167D8" "x231686" "x248784" "x2AD313" "x2BA1CE" "x2C0AC4" "x2F7E73" "x3A340B" "x3C6EFC" "x3CFF20" "x3E9C33" "x3F46FB" "x49C04A" "x4BECCA" "x4ED08B" "x58AFAC" "x5D4C2D" "x5F795B" "x61E0DD" "x6376AC" "x6583A6" "x6A5736" "x6AB0FB" "x74A475" "x74DF28" "x762B45" "x777A4F" "x84B446" "x88FF71" "x89DBF2" "x8D47D0" "x9BB46B" "xA0662C" "xA8C9D2" "xAA031A" "xAF5387" "xB00D9D" "xB17E6B" "xB6039C" "xB9FF8C" "xBCF72D" "xBDC299" "xC7BB4D" "xC905ED" "xCC917E" "xCDCDEE" "xD13996" "xD1BFAF" "xD4E0E8" "xE60560" "xED840A" "xF151F1" "xF1EF03" "xF4B72A" "xFBDEDF" }
+    city = "x9BB46B"
+    port = "xB00D9D"
+    farm = "xB00D9D"
+    mine = "x0F5604"
+    wood = "xA0662C"
+    arable_land = 340
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_silk_plantations" "bg_tea_plantations" "bg_tobacco_plantations" }
+    capped_resources = {
+        bg_lead_mining = 15
+        bg_logging = 2
+        bg_fishing = 3
+        bg_monuments = 1
+    }
+	resource = {
+	     type = "bg_lead_mining"
+	     undiscovered_amount = 10
+	 }
+    naval_exit_id = 3057
+}
+STATE_DZUNGARIA = {
+    id = 478
+    subsistence_building = "building_subsistence_pastures"
+    provinces = { "x000608" "x04C89D" "x0620FE" "x07F0AF" "x0A2195" "x0C88B1" "x0F4C2D" "x0F9D55" "x11E76D" "x120FBC" "x12ACAE" "x12C136" "x142640" "x1433E4" "x1534A6" "x15FF3C" "x1AD69B" "x1B0B79" "x1D5C5B" "x209080" "x215B65" "x23E045" "x24EE89" "x2510D5" "x258022" "x259C0F" "x25D9E3" "x263586" "x263B1E" "x26D431" "x2786AE" "x27D957" "x29E971" "x2A14FF" "x2B8C7B" "x2C62EC" "x2C702C" "x2F1427" "x2F65AF" "x311E86" "x31A27F" "x33E4BE" "x354506" "x360C0E" "x373176" "x374810" "x391A90" "x3BE0B5" "x3C0281" "x3F1FF5" "x408527" "x40D207" "x43390F" "x43C26F" "x445580" "x45BC97" "x468A62" "x473EA4" "x485D7B" "x48D89E" "x4A27C7" "x4A4C3F" "x4A68FC" "x4C9CE6" "x4CC4F4" "x4D1F97" "x4DBB91" "x4E8FCF" "x51EEA9" "x52F5C3" "x530B3A" "x530C6B" "x5386D4" "x540EC3" "x5472A2" "x54F9AF" "x560AAC" "x56EA5E" "x583589" "x5B2A4A" "x601000" "x60245F" "x60F478" "x611EF2" "x6196AC" "x622E5A" "x6399F9" "x671A54" "x683516" "x699EAD" "x6A7E99" "x6B16DD" "x6B3360" "x6D166D" "x6E1198" "x6F9542" "x70E13C" "x7144E4" "x733CDC" "x73ED69" "x748231" "x76B00A" "x7AF2BE" "x7B100B" "x7E5A72" "x7F3EDD" "x7FE46A" "x8008FB" "x834EFB" "x846CB8" "x846DC3" "x8525AC" "x85E5E1" "x86384A" "x8842DB" "x88F2AD" "x89C0FC" "x8AC251" "x8AFD09" "x8B7F68" "x8CF80D" "x8F1E87" "x9063C8" "x92AAFF" "x936758" "x9452A4" "x9C4F53" "x9CEE7E" "x9D4FBD" "x9E8A57" "x9E9BA1" "x9F10C6" "x9F78DD" "xA01000" "xA0C5AC" "xA0EE7C" "xA37B85" "xA603F2" "xA64035" "xA8EB21" "xA8F76F" "xA98C7C" "xA9D689" "xA9FDA2" "xAC02F9" "xAC8786" "xAD8B97" "xAE3793" "xAF7B51" "xAFE7F9" "xB28683" "xB35201" "xB3A81A" "xB4E043" "xB7A8F3" "xB8B8A3" "xB9D609" "xBB54BD" "xBD4A6C" "xBD5250" "xBDABA1" "xBDCE76" "xBDFEF4" "xBEB037" "xBF2C27" "xBF3160" "xBF428B" "xBF7E06" "xC04619" "xC0D0C0" "xC11747" "xC125B4" "xC298E1" "xC2DD15" "xC339C8" "xC3FC31" "xC566EF" "xC5F8DD" "xC74F92" "xC82F0C" "xC86ACB" "xCA52B4" "xCBD4BD" "xCD9C92" "xCDDFC9" "xCF5453" "xD1D99D" "xD24351" "xD2C1A7" "xD325F3" "xD492A3" "xD78A54" "xD9F4DE" "xDABB25" "xDC14C0" "xDC641A" "xDF54AE" "xDFE117" "xE00918" "xE132FF" "xE1F075" "xE1FE47" "xE1FF70" "xE23682" "xE28447" "xE2FB57" "xE3D9DC" "xE44E3D" "xE4C3B1" "xE5C4D6" "xE66CE7" "xE71646" "xE7DE0A" "xE8379B" "xE85F71" "xEA6DD5" "xEB9468" "xEC307A" "xEC6A5A" "xF07848" "xF0D27D" "xF1B341" "xF1CA4F" "xF362CE" "xF392BB" "xF40512" "xF51399" "xF536A6" "xF5A2D0" "xF7F5E9" "xF8CB67" "xF8DFA8" "xF98388" "xFABA5B" "xFCD951" "xFD7F94" "xFDBF2F" "xFFCF37" }
+    city = "x7B100B"
+    farm = "xF536A6"
+    mine = "x51EEA9"
+    wood = "x23E045"
+    arable_land = 30
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
+    capped_resources = {
+        bg_iron_mining = 24
+        bg_lead_mining = 36
+        bg_sulfur_mining = 80
+    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 10
+    }
+			resource = {
+	     type = "bg_sulfur_mining"
+	     undiscovered_amount = 30
+	 }
+}
+STATE_QINGHAI = {  
+    id = 495
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x01EA55" "x023DAA" "x059EA0" "x069EBD" "x098A48" "x0C669D" "x0CCB8F" "x0E7AF6" "x0F110A" "x101FD6" "x111768" "x118595" "x16B891" "x1835D1" "x183BC0" "x1AB66B" "x1B5D55" "x1BF6D6" "x1C7488" "x1FBFBC" "x207F70" "x20B0E0" "x21632D" "x23738C" "x23998A" "x24E110" "x2599E5" "x2821E5" "x283C64" "x2CAFE8" "x2F0405" "x2FFEAA" "x30AAC3" "x351164" "x39205F" "x3A7DD1" "x3B8905" "x4037B8" "x41E71B" "x4374C9" "x438218" "x4382DA" "x48C531" "x4BA0B6" "x4EF4E7" "x4F7F80" "x51E934" "x52D6EF" "x53C731" "x5476D4" "x5538A6" "x55AD3D" "x5782C6" "x578717" "x592A1D" "x5ADB03" "x5B452E" "x5E0C1F" "x5F6C64" "x603060" "x60BB6E" "x6144EE" "x635113" "x6450DE" "x649DE3" "x65C7FB" "x66E588" "x6A29B3" "x6EE031" "x7102E1" "x713CDF" "x73716C" "x7384EB" "x752E9C" "x77631B" "x7C1B07" "x7C70E2" "x82F9A2" "x843F30" "x84D005" "x8638AC" "x879B7B" "x8B7006" "x8FA6BB" "x934412" "x947C19" "x950F2F" "x95EBD6" "x97D0F7" "x9911F6" "x9A3932" "x9B47C8" "xA005D5" "xA0B0E0" "xA43247" "xA5B235" "xA65827" "xA65852" "xA65C2D" "xAB96DC" "xAB9B7F" "xACBB53" "xAE2378" "xAFA6D4" "xB05071" "xB179AA" "xB56153" "xB6FDB8" "xB7A66A" "xB7EAA8" "xB8062C" "xBE9BED" "xBF0F3F" "xBF3B4E" "xC14095" "xC2E1A3" "xC3A077" "xC3B802" "xC63AA0" "xC6F997" "xC8B3E2" "xC909EC" "xCC0798" "xCDA5B8" "xCDBBBB" "xCDCC17" "xCE8D54" "xCEF931" "xCF5578" "xD386AD" "xD438C6" "xD81ABC" "xD85009" "xD88595" "xDCCF57" "xDD43E0" "xDF82D2" "xE297F2" "xE2B866" "xE487C8" "xE75D52" "xEA9D45" "xF0D030" "xF19D57" "xF24B9B" "xF27128" "xF2CD54" "xF396BA" "xF564BF" "xF58A1A" "xF5ECB0" "xF67C16" "xF71E73" "xF79E07" "xF7EAC3" "xF813D9" "xF8163B" "xF8355E" "xFB6246" "xFC7955" "xFFE05D" }
+    traits = { "state_trait_yellow_river" }
+    city = "x53C731"
+    farm = "xBF0F3F"
+    mine = "xCE8D54"
+    wood = "xCF5578"
+    arable_land = 60
+    arable_resources = { "bg_livestock_ranches" }
+    capped_resources = {
+        bg_coal_mining = 48
+        bg_logging = 6
+    }
+	resource = {
+	     type = "bg_coal_mining"
+	     undiscovered_amount = 20
+	 }
+}
+
+STATE_NORTH_SUMATRA = {
+    id = 546
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x01317D" "x01C030" "x257D2C" "x339E85" "x35213F" "x3F7EA0" "x48428B" "x4E9BC1" "x5157D3" "x5BE3D2" "x6021D0" "x677AA6" "x6ED39E" "x79A66E" "x7AC280" "x7C7431" "x8171EA" "x85B004" "x87F7B6" "x8A3E15" "x8B7A14" "x91B001" "x9377DF" "x983FEB" "x9D4BD1" "xA0CEED" "xA1341F" "xA2F773" "xAE71B4" "xD2D88C" "xD3A66E" "xDA82F4" "xDC4677" "xE0A0F0" "xE4C2D6" "xEAF2DC" "xEC5DEA" }
+	prime_land = { x01317D x3F7EA0 x677AA6 x87F7B6 x8171EA x48428B x6021D0 x5BE3D2 x8B7A14 x35213F }
+    city = "xAE71B4"
+    port = "x8A3E15"
+    farm = "x87F7B6"
+    mine = "x8B7A14"
+    wood = "xD3A66E"
+    arable_land = 60
+    arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_dye_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
+    capped_resources = {
+        bg_coal_mining = 40
+        bg_sulfur_mining = 48
+        bg_logging = 29
+        bg_fishing = 13
+    }
+    resource = {
+        type = "bg_rubber"
+        undiscovered_amount = 28
+    }
+		resource = {
+	     type = "bg_sulfur_mining"
+	     undiscovered_amount = 90
+	 }
+    naval_exit_id = 3120
+}
+
+STATE_SOUTH_SUMATRA = {
+    id = 914
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x00F15A" "x03CEC7" "x067967" "x0D0BEB" "x0F65F5" "x174432" "x27FD1C" "x3099D2" "x31E5B1" "x3441E9" "x42D05B" "x4CF770" "x74812B" "x7945C0" "x7A4DC8" "x7D6D54" "x7FFD6B" "x847F76" "x8527A9" "x8FBCF4" "xA97585" "xB0F538" "xCC1A24" "xD10CCE" "xD2193E" "xDBE794" "xE226FB" "xE49A2F" "xE962F4" "xFB099E" }
+    city = "x3099D2"
+    port = "xA97585"
+    farm = "x27FD1C"
+    mine = "x0D0BEB"
+    wood = "xDBE794"
+    arable_land = 40
+    arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_dye_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
+    capped_resources = {
+        bg_coal_mining = 40
+        bg_sulfur_mining = 48
+        bg_logging = 29
+        bg_fishing = 13
+    }
+    resource = {
+        type = "bg_rubber"
+        undiscovered_amount = 28
+    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 10
+    }
+	resource = {
+	     type = "bg_sulfur_mining"
+	     undiscovered_amount = 63
+	 }
+    naval_exit_id = 3120
+}
+
+STATE_ACEH = {
+    id = 547
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x07B7F0" "x0DDF49" "x1C8420" "x30AED9" "x388ABB" "x4544B1" "x4F7793" "x5BDF4D" "x60E050" "x616150" "x7E3D68" "x9A7E0B" "xA0DFD0" "xAB0290" "xBE17D2" "xC266CF" "xC5091B" "xD4118B" "xD5A22C" "xE3CB2E" "xEB815E" }
+    city = "x7E3D68"
+    port = "x1C8420"
+    farm = "x9A7E0B"
+    mine = "xEB815E"
+    wood = "x07B7F0"
+    arable_land = 40
+    arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_dye_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
+    capped_resources = {
+        bg_iron_mining = 15
+        bg_sulfur_mining = 20
+        bg_logging = 14
+        bg_fishing = 8
+    }
+    resource = {
+        type = "bg_rubber"
+        undiscovered_amount = 18
+    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 10
+    }
+		resource = {
+	     type = "bg_sulfur_mining"
+	     undiscovered_amount = 71
+	 }
+    naval_exit_id = 3051
+}

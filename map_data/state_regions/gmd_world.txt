@@ -1,0 +1,16 @@
+﻿#		resource = {
+#	     type = "bg_sulfur_mining"
+#	     undiscovered_amount = 1000
+#	 }
+#		resource = {
+#	     type = "bg_lead_mining"
+#	     undiscovered_amount = 1000
+#	 }
+#		resource = {
+#	     type = "bg_coal_mining"
+#	     undiscovered_amount = 1000
+#	 }
+#		resource = {
+#	     type = "bg_iron_mining"
+#	     undiscovered_amount = 1000
+#	 }
